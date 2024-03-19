@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pong-ppo"
+version = "0.1.0"
+description = ""
+authors = ["Dennis Cui <dennis.z.cui@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gymnasium = {extras = ["accept-rom-license", "atari"], version = "^0.29.1"}
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
